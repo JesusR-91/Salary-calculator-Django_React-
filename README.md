@@ -60,6 +60,8 @@ npm start</code></pre>
 
 <hr/>
 
+<h2>Using Docker Compose</h2>
+
 <p>To access the project using only the docker-compose.yml file, follow these steps:</p>
 
 <ol>
