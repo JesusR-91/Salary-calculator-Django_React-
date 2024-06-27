@@ -1,1 +1,1 @@
-# Salary-calculator-Django_React-
+# Salary-calculator-Django-React-
