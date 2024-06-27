@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  margin: 5%;
+}
+
+.home {
+ margin: 15% 30%;
+}
+
+.navBar{
+  margin-left: 30%;
+  display: flex;
+  gap: 1%;
+  justify-content: flex-start;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.form{
+  padding: 5%;
+}
+
+.container {
+  width: 50%;
+}
+
+.payrollBox{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5%;
+}
+
+.payrollCard{
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  box-shadow: 10px 10px 5px 0px rgba(171, 165, 165, 0.75);
+}
+
+.box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+}
