@@ -1,60 +1,83 @@
-Project: Salary Calculator (Django + React)
+<h1>Project: Salary Calculator (Django + React)</h1>
 
-Description
-This project is a Salary Calculator application built using Django for the backend and React for the frontend. The application allows users to calculate their net salary based on different parameters.
+<h2>Description</h2>
+<p>This project is a Salary Calculator application built using Django for the backend and React for the frontend. The application allows users to calculate their net salary based on different parameters.</p>
 
-Features
-Calculate net salary based on input parameters.
-Backend API built with Django.
-Frontend interface created with React.
-Technologies Used
-Django
-React
-JavaScript
-HTML
-CSS
-Installation
-To run this project locally, follow these steps:
+<h2>Features</h2>
+<ul>
+  <li>Calculate net salary based on input parameters.</li>
+  <li>Backend API built with Django.</li>
+  <li>Frontend interface created with React.</li>
+</ul>
 
-Clone the repository:
+<h2>Technologies Used</h2>
+<ul>
+  <li>Django</li>
+  <li>React</li>
+  <li>JavaScript</li>
+  <li>HTML</li>
+  <li>CSS</li>
+</ul>
 
-git clone https://github.com/JesusR-91/Salary-calculator-Django-React-.git
-Install dependencies for the backend:
+<h2>Installation</h2>
+<p>To run this project locally, follow these steps:</p>
 
-cd backend
-pip install -r requirements.txt
-Install dependencies for the frontend:
+<ol>
+  <li>Clone the repository:</li>
+</ol>
 
-cd frontend
-npm install
-Start the backend server:
+<pre><code>git clone https://github.com/JesusR-91/Salary-calculator-Django-React-.git</code></pre>
 
-cd backend
-python manage.py runserver
-Start the frontend application:
+<ol start="2">
+  <li>Install dependencies for the backend:</li>
+</ol>
 
-cd frontend
-npm start
-Access the application at http://localhost:3000.
+<pre><code>cd backend
+pip install -r requirements.txt</code></pre>
+
+<ol start="3">
+  <li>Install dependencies for the frontend:</li>
+</ol>
+
+<pre><code>cd frontend
+npm install</code></pre>
+
+<ol start="4">
+  <li>Start the backend server:</li>
+</ol>
+
+<pre><code>cd backend
+python manage.py runserver</code></pre>
+
+<ol start="5">
+  <li>Start the frontend application:</li>
+</ol>
+
+<pre><code>cd frontend
+npm start</code></pre>
+
+<p>Access the application at <a href="http://localhost:3000">http://localhost:3000</a>.</p>
 
 <hr/>
 
-To access the project using only the docker-compose.yml file, follow these steps:
+<p>To access the project using only the docker-compose.yml file, follow these steps:</p>
 
-Download the docker-compose.yml file from the project repository.
+<ol>
+  <li>Download the docker-compose.yml file from the project repository.</li>
+  <li>Open a terminal and navigate to the location where you downloaded the docker-compose.yml file.</li>
+  <li>Run the following command to start the project using Docker Compose:</li>
+</ol>
 
-Open a terminal and navigate to the location where you downloaded the docker-compose.yml file.
+<pre><code>docker-compose up</code></pre>
 
-Run the following command to start the project using Docker Compose:
+<p>Once Docker Compose has finished building and bringing up the containers, you can access the application via your web browser.</p>
 
-docker-compose up
-Once Docker Compose has finished building and bringing up the containers, you can access the application via your web browser.
+<p>Open your browser and go to the following address:</p>
 
-Open your browser and go to the following address:
+<p><a href="http://localhost:3000">http://localhost:3000</a></p>
 
-http://localhost:3000
-By following these steps, you can access and use the Salary Calculator project without the need to clone the entire repository, simply by using the docker-compose.yml file and Docker Compose to run the application in your local environment.
+<p>By following these steps, you can access and use the Salary Calculator project without the need to clone the entire repository, simply by using the docker-compose.yml file and Docker Compose to run the application in your local environment.</p>
 
-Author
-Name: JesusR-91
-Feel free to explore and contribute to this project!
+<h2>Author</h2>
+<p>Name: JesusR-91</p>
+<p>Feel free to explore and contribute to this project!</p>
